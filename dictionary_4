@@ -1,1 +1,11 @@
-It is the fourth training with dictionary
+# It is the fourth training with dictionary
+
+python_dictionary = {'int': 'butun son', 'float':'kasr son', 'string':'matn', 'if':'agar', 'else':'yoki', 'for':'uchun', 'list':'ruyxat', 'loop':'doira', 'and':'va', 'or':'yoki'}
+
+term = input("Please, enter any term about Python: \n")
+
+if term in python_dictionary:
+    print(python_dictionary[term])
+    
+else:
+    print("This term is not defined in Python.")
