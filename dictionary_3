@@ -1,1 +1,8 @@
-It is the thirt traing with dictionary
+#It is the thirt traing with dictionary
+python_dictionary = {'int': 'butun son', 'float':'kasr son', 'string':'matn', 'if':'agar', 'else':'yoki', 'for':'uchun', 'list':'ruyxat', 'loop':'doira', 'and':'va', 'or':'yoki'}
+
+print(python_dictionary['string'])
+print(python_dictionary['else'])
+print(python_dictionary['loop'])
+print(python_dictionary['float'])
+print(python_dictionary['list'])
