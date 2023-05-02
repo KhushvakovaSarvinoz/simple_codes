@@ -1,1 +1,14 @@
-work with ditionary
+#work with ditionary
+father = {'name':'Ishkuvat', 'b_year':1963, 'region':'Samarkand'}
+mother = {'name':'Dilbar', 'b_year':1964, 'region' :'Samarkand'}
+sister = {'name':'Nargiza', 'b_year':1986, 'region' :'Samarkand'}
+brother = {'name':'Sardor', 'b_year':1988, 'region' :'Samarkand'}
+little_brother = {'name':'Sindor', 'b_year':1998, 'region' :'Samarkand'}
+
+print(father['name'])
+print(mother['b_year'])
+print(sister['region'])
+print(brother['name'])
+print(little_brother['b_year'])
+
+
