@@ -1,1 +1,8 @@
-It is the second traing with dictionary
+# It is the second traing with dictionary
+favority_meal = {'father' :'plov', 'mother':'manti', 'sister':'norin', 'brother':'shashlik', 'little_brother':'jiz'}
+
+print(f"My father's favority meal is {favority_meal['father']}")
+print(f"My mother's favority meal is {favority_meal['mother']}")
+print(f"My sister's favority meal is {favority_meal['sister']}")
+print(f"My brother's favority meal is {favority_meal['brother']}")
+print(f"My little brother's favority meal is {favority_meal['little_brother']}")
