@@ -13,9 +13,9 @@ menu = {'osh': '10$',
 print("We will take your meal order")
 meals = []
 for n in range(3):
-    meals.append(input(f"Please enter {n+1} meal: ").lower())
+    meals.append(input(f"Please enter {n+1} meal: \n").lower())
 for meal in meals:
     if meal in menu:
         print(f"{meal.title()} {menu[meal] }")
     else:
-        print("We have not that typy of meal")
+        print("We have not that type of meal")
