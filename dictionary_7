@@ -1,1 +1,14 @@
-It is the seventh training with dictionary
+# It is the seventh training with dictionary
+
+capital = {'Uzbekistan':'Tashkent',
+           'Korea':'Seul',
+           'Malaysiya':'Kuala-Limpur',
+           'Qatar':'Doxa',
+           'Russia':'Moscva',
+           'USA':'Washington DC'
+           }
+
+q = input(f"Please enter name of country which do you want to know the capital of: ")
+for k, v in capital.items():
+    if q in k:
+        print (f"{q} capital is {v}")
