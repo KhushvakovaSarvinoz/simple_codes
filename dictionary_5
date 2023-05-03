@@ -1,1 +1,14 @@
-It is the fifth training with dictionary
+#It is the fifth training with dictionary
+
+defination = {'for':'uchun', 
+             'if':'agar', 
+             'list':'ruyxat',
+             'tuple':'uzgarmas ruyxat',
+             'int':'butun son',
+             'sting':'matn',
+             'float':'kasr son',
+             'loop':'doira',
+             'else':'agarda'
+             }
+for k,v in sorted(defination.items()):
+    print(f"{k} defination in Uzbek languages is {v}")
