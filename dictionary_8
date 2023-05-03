@@ -1,1 +1,21 @@
-It is eighth training with dictionaty
+# It is eighth training with dictionaty
+
+
+menu = {'osh': '10$', 
+        'manti': '4$', 
+        'nuxot':'9$', 
+        'somsa':'5$',
+        'norin':'12$',
+        'shurva':'7$',
+        'mastava':'6$',
+        'beshbarmoq':'12$'
+        }
+print("We will take your meal order")
+meals = []
+for n in range(3):
+    meals.append(input(f"Please enter {n+1} meal: ").lower())
+for meal in meals:
+    if meal in menu:
+        print(f"{meal.title()} {menu[meal] }")
+    else:
+        print("We have not that typy of meal")
