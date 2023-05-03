@@ -1,1 +1,14 @@
-It is the sixth training with dictionary
+# It is the sixth training with dictionary
+
+capital = {'Uzbekistan':'Tashkent',
+           'Korea':'Seul',
+           'Malaysiya':'Kuala-Limpur',
+           'Qatar':'Doxa',
+           'Russia':'Moscva',
+           'USA':'Washington DC'
+           }
+for s in sorted(capital):
+    print(f"The name of state {s}")
+    
+for c in sorted(capital.values()):
+    print(f"The name of capital {c}")
