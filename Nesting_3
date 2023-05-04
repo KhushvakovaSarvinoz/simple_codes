@@ -1,1 +1,13 @@
-It is the third training with nesting
+# It is the third training with nesting
+
+p_languages = {
+    'ali':['python', 'c++'],
+    'vali' : ['php', 'java'],
+    'olim' : ['c#', 'html'],
+    'suxrob':['css', 'javascrip']
+    }
+
+for k,v in p_languages.items():     
+    print(f"\n My friend {k.title()} is developer.He knows following programming languages:") 
+    for sf in v: 
+        print( sf.upper(), end=" ")
