@@ -1,1 +1,23 @@
-It is the fourth training with nesting
+# It is the fourth training with nesting
+
+Uzbekistan = {
+    'name':'Uzbekistan',
+    'capital':'Tashkent',
+    'currency':'sum'
+    }
+
+Russia = {
+    'name':'Rusia',
+    'capital':'Moscow',
+    'currency':'rubl'
+    }
+
+USA = {
+       'name':'USA',
+       'capital':'Washington',
+       'currency':'dollar'
+       }
+
+states = [Uzbekistan, Russia, USA ] 
+for state in states:
+    print(f"State name is {state['name']}, capital: {state['capital']}, currency: {state['currency']}.")
