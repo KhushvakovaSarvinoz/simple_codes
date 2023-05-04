@@ -1,1 +1,44 @@
-This code about nesting
+# This code about nesting
+
+father = {'name':'Ishquvat',
+          'byear':1963,
+          'meal':'osh',
+          'hobby':'football',
+          'm':'father'
+          }
+
+mother = {'name':'Dilbar',
+          'byear':1964,
+          'meal':'norin',
+          'hobby':'cleaning',
+          'm':'mother'
+          }
+
+sister = {'name':'Nargiza',
+          'byear':1986,
+          'meal':'shashlik',
+          'hobby':'rading',
+          'm':'sister'
+          }
+
+brother = {'name':'Sardor',
+          'byear':1988,
+          'meal':'somsa',
+          'hobby':'samboo',
+          'm':'brother'
+          }
+
+lbrother = {'name':'Sindor',
+          'byear':1998,
+          'meal':'beshbarmoq',
+          'hobby':'karate',
+          'm':'little brother'
+          }
+
+members = [father, mother, sister, brother, lbrother]
+for member in members:
+     print(f"My family member is my {member['m']}, "
+           f" name is {member['name']}, "
+           f"birth year is {member['byear']}, "
+           f"favority meal is {member['meal']}, "
+           f" hobby is {member['hobby']}.")
