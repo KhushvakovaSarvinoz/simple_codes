@@ -1,1 +1,30 @@
-It is the second training with nesting
+# It is the second training with nesting
+
+buxoriy = {'name':'Abu Abdulloh Muhammad ibn Ismoil',
+           'byear':810,
+           'dyear':870,
+           'bplace':'Buxoro',
+           'works':['Al jome as-saxix', 'Al adab al-mufrad']
+           }
+
+navoiy = {'name':'Alisher Navoiy',
+           'byear':1441,
+           'dyear':1501,
+           'bplace':"Xirot",
+           'works':['Xamsa', 'Lisson ut-tayr']
+           }
+
+          
+qodiriy = {'name':'Abdulla Qodiriy',
+           'byear':1894,
+           'dyear':1938,
+           'bplace':'Toshkent',
+           'works':['Mexrobdan chayon','Obid ketmon']
+           }
+
+celebraties = [ buxoriy, navoiy, qodiriy]
+for famous in celebraties:
+    print(f" Name is {famous['name']}, birth year is {famous['byear']},"
+          f" died year is {famous['dyear']}, "
+          "birth place is {famous['bplace']} "
+          f"his famous works is {famous['works']}.")
