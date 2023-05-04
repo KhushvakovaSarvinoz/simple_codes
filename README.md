@@ -1,1 +1,1 @@
-I created a number of simple codes for diffirent topics for your plasure
+I created a number of simple codes in diffirent topics for your plasure
