@@ -1,1 +1,14 @@
-It is the third training with 'while'
+# It is the third training with 'while'
+
+quis ="Calculates the root of any number entered.\n"
+quis += "Enter a positive number"
+quis += "(to stop this app enter 'exit'): "
+
+while True:
+    value = input(quis)
+    if value == 'exit':
+        print("The end.")
+        break
+    if float(value)>0:
+        root = float(value)**(0.5)
+        print(f"{value} root is equal to {root}. ")  
