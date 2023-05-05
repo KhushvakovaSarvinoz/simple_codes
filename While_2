@@ -1,1 +1,21 @@
-It is the second training with 'while'
+# It is the second training with 'while'
+quis = "Please enter your age: "
+
+while True:
+    value = input(quis)
+    if value == 'exit' or value == 'quit':
+        break
+    age = int(value)
+    
+    if age<7:
+        price = 2
+    elif 7<=age<18:
+        price = 3
+    elif 18<=age<65:
+        price = 10
+    else: price = 0
+    
+    if price==0:
+        print("It is free for you")
+    else:
+        print(f"Ticket price is {price} $.")
