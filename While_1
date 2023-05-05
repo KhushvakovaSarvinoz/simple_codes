@@ -1,1 +1,10 @@
-It is the first training with "while"
+# It is the first training with "while"
+
+quis = "Please, enter the name of your favority books:"
+quis+= "(if you want to stop, please enter exit)\n"
+while True:
+    value = input(quis)
+    if value == "exit":
+        break     
+print("Thank you")
+ 
