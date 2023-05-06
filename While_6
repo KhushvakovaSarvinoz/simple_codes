@@ -1,1 +1,13 @@
-It is the sixth training with 'while'
+# It is the sixth training with 'while'
+
+
+orders = ['apple','banana', 'grape', 'apricot', 'pear', 'peach']
+products ={'apple':2, 'melon':3, 'watermelon':4, 'apricot':2, 'banana':1}
+accepted = {}
+while orders:
+    order = orders.pop()
+    if order in products.keys():
+        price = products[order]
+        print(f"{order.title()} price is {price} $.\n")
+    else:
+        print(f"{order.title()} is not exist in our market. ")
