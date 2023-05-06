@@ -1,1 +1,15 @@
-It is the fifth training with 'while'
+# It is the fifth training with 'while'
+
+print("For online market we create dictionary products and their prices")
+products = {}
+flag = True
+while True:
+    product = input("Please enter the name of product:\n")
+    price = input(f"Please enter the price of {product}:\n")
+    products[product]=(price)
+    quis = input("Do you want continue enter yes or no:\n")
+    if quis == "no":
+        quis = False
+        break
+
+print(products)
