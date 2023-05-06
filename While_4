@@ -1,1 +1,12 @@
-It is the fourth training with 'while'
+# It is the fourth training with 'while'
+
+print("We create a list of products which you want to order")
+products = []
+while True:
+    product=input("Please enter the name of product:\n")
+    products.append(product)
+    quis=input('Do you want to continue enter yes or not:')
+    if quis == 'not':
+        quis = False
+        break
+print(products)
