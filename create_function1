@@ -1,1 +1,7 @@
-It is the frist training to create function
+# It is the frist training to create function
+
+def count_age(name, b_year):
+    """This function helps to count age of user"""
+    print(f"Hello {name.title()}, your age is {2023-b_year}.")
+    
+count_age('Sarvinoz',1994)
