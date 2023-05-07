@@ -1,1 +1,7 @@
-It is the second training with create function
+# It is the second training with create function
+
+def count_square_cube(number):
+    """This function helps to count optional numbers square and cube"""
+    print(f"{number} square is: {number**2}, cube is: {number**3}.")
+    
+count_square_cube(3)
