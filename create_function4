@@ -1,1 +1,10 @@
-It is the fourth training with create function
+# It is the fourth training with create function
+
+def compare_num(a,b):
+    """This function helps to find a large number among optional this two numbers"""
+    if a<b:
+        print(f"{b} is a large than {a}")
+    else:
+        print(f"{a} is a large than {b}")
+        
+compare_num(34,45)
