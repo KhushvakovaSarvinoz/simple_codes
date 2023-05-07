@@ -1,1 +1,9 @@
-It is the fifth training with create function
+# It is the fifth training with create function
+
+def divise_without_residual(number):
+    """This function helps to find division of without residual"""
+    for n in range(2,11):
+        if not number%n:
+            print(f"{number} is divided {n} without residual.")
+            
+divise_without_residual(45)
