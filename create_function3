@@ -1,1 +1,10 @@
-It is the thirt training with create function
+# It is the thirt training with create function
+
+def find_even_odd(number):
+    """This function helps to find number is an even or an odd"""
+    if number%2:
+        print(f"{number} is an odd.")
+    else:
+        print(f"{number} is an even.")
+
+find_even_odd(33)
