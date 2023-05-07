@@ -4,7 +4,9 @@ def compare_num(a,b):
     """This function helps to find a large number among optional this two numbers"""
     if a<b:
         print(f"{b} is a large than {a}")
-    else:
+    elif a>b:
         print(f"{a} is a large than {b}")
+    else:
+        print("They are equal.")
         
-compare_num(34,45)
+compare_num(23,23)
