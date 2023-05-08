@@ -1,1 +1,8 @@
-It is the fourth training with return function
+# It is the fourth training with return function
+def do_upper(name):
+    for i in range(len(name)):
+        name[i] = name[i].title()  
+    return name
+
+names = ['olim','odil','anvar','jalol']
+print(do_upper(names))
