@@ -5,4 +5,7 @@ def do_upper(name):
     return name
 
 names = ['olim','odil','anvar','jalol']
-print(do_upper(names))
+print(do_upper(names [:]))
+
+names[2]='ilhom'
+print(names)
