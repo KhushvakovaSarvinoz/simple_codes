@@ -1,1 +1,24 @@
-It is the second training with return function
+# It is the second training with return function
+
+def create_p_info(name, surname, adress, dbirth, email=''):
+    p_info = {'name':name,
+              'surname':surname,
+              'adress':adress,
+              'dbirth':dbirth,
+              'email': email
+              }
+    return p_info
+
+print("We create the list of information of our customer. ")
+customers=[]
+while True:
+    print("Please enter following informations:")
+    name= input("What is your name?\n")
+    surname= input("What is your surname?\n")
+    adress= input("Enter your adress: \n")
+    dbirth = input("Enter your birth year: \n")
+    email = input("Enter your email if you want: \n")
+    customers.append(create_p_info(name, surname, adress, dbirth, email=''))
+    quis= input ("Do you want to continue enter yes or no:")
+    if quis=='no':
+        break
