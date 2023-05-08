@@ -1,1 +1,28 @@
-It is the frist training with return function
+# It is the frist training with return function
+
+def create_p_info(name, surname, adress, dbirth, email=''):
+    p_info = {'name':name,
+              'surname':surname,
+              'adress':adress,
+              'dbirth':dbirth,
+              'email': email
+              }
+    return p_info
+
+user1= create_p_info('Sarvinoz', 'Xushvakova', 'Naperville', 1994, 'sarvinozxushvakova@mail.com')
+user2= create_p_info('kamron','rozikov','naperville',1992)
+users= [user1,user2]
+print("Information about our users:")
+for user in users:
+    if user['email']:
+        email=user['email']
+        print(f"{user['name']} {user['surname']} " 
+              f"{user['adress']} {user['dbirth']} "
+              f"e-mail={email}")
+
+    else:
+        email='none'
+        print(f"{user['name']} {user['surname']} " 
+              f"{user['adress']} {user['dbirth']} "
+              f"e-mail={email}")
+        
