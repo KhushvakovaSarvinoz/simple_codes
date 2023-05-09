@@ -1,1 +1,11 @@
-It is the frist training with *args
+# It is the frist training with *args
+
+
+def multiply(*numbers):
+    """ This program multiplies optinal numbers"""
+    result= 1
+    for number in numbers:
+        result *= number
+    return result
+    
+print(multiply(3,5,6))
