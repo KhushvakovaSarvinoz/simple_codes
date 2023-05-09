@@ -1,1 +1,12 @@
-It is the first training with **kwargs
+# It is the first training with **kwargs
+
+def collect(name,surname, **info):
+    """This app collects all info about customers"""
+    info['name'] = name,
+    info['surname'] = surname
+    return info
+customer1= collect('Sarvinoz', 'Xushvakova', age=29, adress='Naperville')
+customer2= collect('Kamronbek', 'Rozikov', age=31, email='kamronbekrozikov9@gmail.com')
+
+customers= [customer1, customer2]
+print(customers)
