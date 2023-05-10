@@ -1,0 +1,10 @@
+class Users:
+    def __init__(self,name,username,email):
+        self.name= name
+        self.username= username
+        self.email= email
+    def get_info(self):
+        return(f"User: {self.username}  name is  {self.name} "
+                 f" email is {self.email}")
+user1= Users("Sarvinoz","imron_dunyo","sarvinozxushvaqova@mail.com")
+user2= Users("Kamronbek", "big_boy", "kamronbekrozikov24@mail.ru")
