@@ -1,1 +1,42 @@
-It is the second training with class
+# It is the second training with class
+
+class Avto:
+    def __init__(self,color,brand,model,price,data):
+        self.color = color
+        self.brand = brand
+        self.price = price
+        self.data = data
+        self.model = model
+        self.km = 0
+        
+    def get_color(self):
+        return self.color
+    
+    def get_brand(self):
+        return self.brand
+    
+    def get_price(self):
+        return self.price
+    
+    def get_data(self):
+        return self.data
+    
+    def set_km(self,km):
+        self.km = km
+        
+    def get_km(self):
+        return self.km
+        
+    def get_info(self):
+        return f"{self.color} {self.model}, brand: {self.brand}, price: {self.price} data {self.data} kilometr: {self.km}"
+   
+    
+avto1 = Avto("red", "toyota", "Corolla Cross XLE", 13000,2017)
+avto2 = Avto("black", "BMW","X7", 17000,2020)
+avto3 = Avto("white", "Tesla","Model X", 30000,2022)
+
+print(avto1.get_color())
+print(avto3.get_price())
+print(avto2.get_info())
+avto2.set_km(23) 
+print(avto2.get_km())
