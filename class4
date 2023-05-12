@@ -6,7 +6,10 @@ class Human:
         self.surname= surname
         self.pasport= pasport
         self.byear= byear
-        
+    
+    def __repr__(self):
+        return f"{self.name} {self.surname}"  
+  
     def get_name(self):
         return self.name
     
@@ -39,10 +42,13 @@ class Student(Human):
         return self.course
     
     def set_course(self, course):
-        return self.course
+        self.course = course
     
     def get_info(self):
         info=f"Student {self.name} {self.surname} ID: {self.ID} course: {self.course}"
         return info
+
+    def __lt__(self,x):
+        return self.course<x.course
     
 student= Student("Imron","Akmaljonov","AA203434", 2000, 374494923)
