@@ -28,6 +28,9 @@ class Subjects:
             new_subj =  Subjects(f"{self.name} {value.name}")
             new_subj.students = self.students + value.students
             return new_subj
+	
+    def __call__(self):
+        return [student for student in self.students]
         
 subj= Subjects("Ancient Egypt") 
 subj1= Subjects ("Mathmatic") 
