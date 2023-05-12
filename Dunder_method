@@ -4,8 +4,10 @@ class Subjects:
         self.name =name
         self.students = []
         
-    def add_student(self,student):
-        self.students.append(student)
+    def add_student(self,*value):
+        for student in value:
+            if isinstance(student,Student):
+                self.students.append(student)
         
     def __getitem__(self,index):
         return self.students[index]
@@ -57,7 +59,10 @@ class Student:
     def __lt__(self,x):
         return self.course<x.course
     
-    
+    def __repr__(self):
+        return f"Student {self.name} {self.surname} ID: {self.ID} course: {self.course}"
+
+
 student= Student("Imron","Akmaljonov","AA203434", 2000, 374494923)
 student1= Student("Dunyo","Akmaljonova","AB2345678", 2001, 349283445)
 
