@@ -8,9 +8,12 @@ print(f"My sister's favority meal is {favority_meal['sister']}.")
 print(f"My brother's favority meal is {favority_meal['brother']}.")
 print(f"My little brother's favority meal is {favority_meal['little_brother']}.")
 
-meal= favority_meal.get('nephew', 'This name is not found')
-print(meal)
+food= favority_meal.get('nephew', 'This name is not found')
+print(food)
 
 favority_meal = {'father' :'plov', 'mother':'manti', 'sister':'plov', 'brother':'shashlik', 'little_brother':'jiz'}
 for k,v in favority_meal.items():
     print({v})
+    
+for meal in set(favority_meal.values()):
+    print(meal)
