@@ -17,6 +17,9 @@ class Avto:
     
     def get_price(self):
         return self.price
+
+    def get_model(self):
+	  return self.price
     
     def get_data(self):
         return self.data
