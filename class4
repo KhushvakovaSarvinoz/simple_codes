@@ -21,6 +21,7 @@ class Human:
     
     def get_byear(self):
         return self.byear
+
     def get_info(self):
         info= f"Full name is {self.name} {self.surname} pasport: {self.pasport} birth year is {self.byear}"
         return info
