@@ -64,3 +64,4 @@ class Student(Human):
         return info
     
 student= Student("Imron","Akmaljonov","AA203434", 2000, 374494923)
+student= Student("Dunyo","Akmaljonova","AB2345432",2002, 438459234)
